@@ -5,13 +5,13 @@
 
 buildPythonPackage rec {
   pname = "thumbor";
-  version = "6.5.1";
+  version = "6.5.2";
 
   disabled = isPy3k; # see https://github.com/thumbor/thumbor/issues/1004
 
   src = fetchPypi {
     inherit pname version;
-    sha256 = "0yalqwpxb6m0dz2qfnyv1pqqd5dd020wl7hc0n0bvsvxg1ib9if0";
+    sha256 = "88ee0e88c6e997c7dde042c9046f095cc914501efb58730ab49b96f8f9b78ec5";
   };
 
   postPatch = ''
