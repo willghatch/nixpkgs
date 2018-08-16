@@ -16769,6 +16769,8 @@ with pkgs;
 
   icewm = callPackage ../applications/window-managers/icewm {};
 
+  id3 = callPackage ../applications/audio/id3 { };
+
   id3v2 = callPackage ../applications/audio/id3v2 { };
 
   ifenslave = callPackage ../os-specific/linux/ifenslave { };

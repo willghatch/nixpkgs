@@ -4340,6 +4340,11 @@
     email = "kirill.wedens@gmail.com";
     name = "wedens";
   };
+  willghatch = {
+    email = "william@hatch.uno";
+    github = "willghatch";
+    name = "William G Hatch";
+  };
   willibutz = {
     email = "willibutz@posteo.de";
     github = "willibutz";
